@@ -7,7 +7,7 @@
 int main() {
   printf("Desafio xadrez!");
   printf("Novo commit \n");
-  
+
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
 char estado1;
@@ -28,7 +28,7 @@ char estado1;
 
   // Área para entrada de dados
 
-   printf("=== CADASTRO DA PRIMEIRA CARTA ===\n");
+   printf(" CADASTRO DA PRIMEIRA CARTA \n");
     
     printf("Estado (A-H): ");
     scanf(" %c", &estado1);
@@ -51,7 +51,7 @@ char estado1;
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontos_turisticos1);
 
-    printf("\n=== CADASTRO DA SEGUNDA CARTA ===\n");
+    printf("\n CADASTRO DA SEGUNDA CARTA \n");
     
     printf("Estado (A-H): ");
     scanf(" %c", &estado2);
@@ -77,7 +77,7 @@ char estado1;
     
     // Área para exibição dos dados da cidade
     
-    printf("\n=== CARTA 1 ===\n");
+    printf("\n CARTA 1 \n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
@@ -86,7 +86,7 @@ char estado1;
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1);
 
-     printf("\n=== CARTA 2 ===\n");
+     printf("\n CARTA 2 \n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
